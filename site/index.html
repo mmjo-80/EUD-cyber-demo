@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CyberLab — automatisk, syntetisk cybersikkerhedsdemonstration til åbent hus.">
+  <meta name="theme-color" content="#080e14">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>CyberLab · Operations Live</title>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="masthead">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">C<span>↗</span></span><div><strong>CYBER<span>LAB</span></strong><small>MERCANTEC / DIGITAL DEFENCE</small></div></div>
+    <div class="headline"><span class="eyebrow">SECURITY OPERATIONS CENTRE</span><h1>Inside the cyber battlefield<span>.</span></h1></div>
+    <div class="session"><span class="simulation"><i></i> SIMULATION</span><time id="clock">00:00:00</time><small>LOCAL TIME / DENMARK</small></div>
+  </header>
+  <main>
+    <section class="overview" aria-label="Simuleret operationsstatus">
+      <div class="operation"><span class="eyebrow">ACTIVE OPERATION <b id="scene-number">01 / 03</b></span><h2 id="scene-title">Mapping the surface</h2><p id="scene-caption">Rekognoscering · Find sporene, før andre gør det.</p><div class="scene-track"><span id="scene-progress"></span></div></div>
+      <div class="metric"><small>EVENTS PROCESSED</small><strong id="events">12,480</strong><span><i></i> synthetic telemetry</span><div class="spark" id="spark" aria-hidden="true"></div></div>
+      <div class="metric"><small>LAB ENDPOINTS</small><strong>08<span class="unit"> / 08</span></strong><span><i></i> isolated environment</span><div class="endpoint-dots" aria-hidden="true">▰ ▰ ▰ ▰ ▰ ▰ ▰ ▰</div></div>
+      <div class="posture"><small>DEFENCE POSTURE</small><strong id="posture">OBSERVING</strong><span id="technique">MITRE ATT&CK · T1046</span><div class="radar" aria-hidden="true"><i></i></div></div>
+    </section>
+    <section class="terminal-grid" id="terminals" aria-label="Otte animerede, syntetiske terminalstrømme"></section>
+    <section class="intel-strip" aria-label="Simuleret detektion"><span class="intel-label"><i></i> DETECTION FEED</span><span id="intel">SURICATA · Network discovery pattern identified · T1046</span><span class="intel-end">CORRELATION ENGINE / ONLINE</span></section>
+  </main>
+  <footer><span><b>CYBER SECURITY</b> / Se truslen. Forstå teknikken. Byg forsvaret.</span><span class="footer-right">ALL ACTIVITY IS SYNTHETIC <span>●</span> NO LIVE TARGETS <span>●</span> ÅBENT HUS</span></footer>
+  <noscript>Denne visuelle simulation kræver JavaScript aktiveret i browseren.</noscript>
+</body>
+</html>
